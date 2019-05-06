@@ -14,8 +14,12 @@ def hopper
           :known_for => "Unix",
           :languages => ["C"]
         }
+        
+        holding_val = programmer_hash[grace_hopper]
+        return holding_val[known_for]
+        
      }
-
+        
 
 end
 
